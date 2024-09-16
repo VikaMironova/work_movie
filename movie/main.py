@@ -1,30 +1,25 @@
 import os
 import re
 import subprocess
+from collections import defaultdict
 
-INPUT_PATH = '/home/vika/print/movie/source/blood_and_blood'
-OUTPUT_DIR = '/home/vika/print/movie/movie/spaces/ready'
+# Укажите пути к входным и выходным директориям
+INPUT_PATH = ''
+OUTPUT_DIR = ''
 
 
 def gather_sequences(base_path):
-    sequences = {
-        'blood': [],
-        'blood_mist': []
-    }
+    sequences = defaultdict(list)
 
+    # Обновленное регулярное выражение для захвата различных форматов имен файлов
     for root, _, files in os.walk(base_path):
         for filename in files:
-            match_blood = re.match(r'blood\.(\d{3})\.jpg$', filename)
-            match_blood_mist = re.match(r'blood_mist_(\d{3})\.jpg$', filename)
-
-            if match_blood:
-                frame_num = int(match_blood.group(1))
-                if 1 <= frame_num <= 118:
-                    sequences['blood'].append(os.path.join(root, filename))
-            elif match_blood_mist:
-                frame_num = int(match_blood_mist.group(1))
-                if 1 <= frame_num <= 307:
-                    sequences['blood_mist'].append(os.path.join(root, filename))
+            # Регулярное выражение для различных форматов
+            match = re.match(r'(.+?)[_.\s](\d{3,8})\.jpg$', filename)
+            if match:
+                sequence_name = match.group(1).strip()  # Убираем лишние пробелы
+                frame_num = int(match.group(2))
+                sequences[sequence_name].append(os.path.join(root, filename))
 
     return sequences
 
