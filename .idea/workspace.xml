@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="656f9bde-c4e3-4658-a623-0451064437d7" name="Changes" comment="init_commit">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/movie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/movie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie/main.py" afterDir="false" />
+    <list default="true" id="656f9bde-c4e3-4658-a623-0451064437d7" name="Changes" comment="init_commit_3">
       <change afterPath="$PROJECT_DIR$/source/Explosion Huge/Explosion Huge 0018.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/source/Explosion Huge/Explosion Huge 0025.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/source/Explosion Huge/Explosion Huge 0032.jpg" afterDir="false" />
@@ -2099,7 +2083,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -2112,10 +2104,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;git-widget-placeholder&quot;: &quot;vika&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -2168,10 +2161,65 @@
       <option name="presentableId" value="Default" />
       <updated>1726261528621</updated>
     </task>
+    <task id="LOCAL-00001" summary="init_commit">
+      <option name="closed" value="true" />
+      <created>1726430890997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726430890997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init_commit_1">
+      <option name="closed" value="true" />
+      <created>1726431577941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726431577941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init_commit_1">
+      <option name="closed" value="true" />
+      <created>1726431587649</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726431587649</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init_commit_2">
+      <option name="closed" value="true" />
+      <created>1726432030952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726432030952</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init_commit_3">
+      <option name="closed" value="true" />
+      <created>1726511627516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726511627516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init_commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init_commit" />
+    <MESSAGE value="init_commit_1" />
+    <MESSAGE value="init_commit_2" />
+    <MESSAGE value="init_commit_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="init_commit_3" />
   </component>
 </project>
